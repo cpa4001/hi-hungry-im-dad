@@ -25,7 +25,12 @@ def about():
 @app.route('/button')
 def button():
    return render_template("button.html")
-   
+
+#background process happening without any refreshing
+def do_something():
+    print ("Hello")
+    return
+
 if __name__ == '__main__':
    app.run(debug=True)
    
