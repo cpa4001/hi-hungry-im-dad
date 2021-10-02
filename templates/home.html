@@ -3,25 +3,30 @@
 	<head>
     <title>Flask app</title>
 	<link rel="stylesheet" href="{{ url_for('static', filename='css/button.css') }}">
+        <style>
+p {
+  color: white;
+  text-indent: 30px;
+  text-transform: uppercase;
+  page-break-after: auto;
+}
+</style>
    </head>
   <body>
    {% extends "template.html" %}
    {% block content %}
-	<nav>
-  <ul>
-    <li onclick="do_something()">
-	<!--
-		<form method="post" action="/">
-			<input type="submit" value="GIVE ME A DAD JOKE!!" name="action1"/>
-		</form>
-	!-->
-		GIVE ME A DAD JOKE !!
-        <button type="button">Click Me!</button>
-      <span></span><span></span><span></span><span></span>
-    </li>
-  </ul>
 
-	</nav>
+    <nav>
+        <ul>
+            <li>
+                <form action="#" method="POST">
+                    <input type="submit" value="GIVE ME A DAD JOKE!!" id="calc_btn" name="jk_request"/>
+                </form>
+                <span></span><span></span><span></span><span></span>
+            </li>
+        </ul>
+    </nav>
+   <p> {{ dadjoke }} </p>
    {% endblock %}
   </body>
 </html>
