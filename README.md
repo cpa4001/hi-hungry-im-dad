@@ -1,6 +1,13 @@
 # hi-hungry-im-dad
 hi-hungry-im-dad is a simple web app aplication that uses the Flask python framework. Hi Hungry, Im Dad looks into a small joke dataset that has been cleaned for expletive language by a neural network, and presents it to the user client. This application was built by Christian Apostoli and Jairo Garciga for SunHacks 2021.
 
+# Technologies Used
+- HTML
+- CSS
+- Flask
+- Python
+- Keras
+
 ``` sh
 #clone repo to desired directory
 git clone https://github.com/cpa4001/hi-hungry-im-dad dirname
@@ -28,3 +35,4 @@ Watch this short video on a futher explanation of the project! https://www.youtu
 - https://www.freecodecamp.org/news/how-to-build-a-web-application-using-flask-and-deploy-it-to-the-cloud-3551c985e492/
 - https://codepen.io/comehope/pen/eKqZjy
 - https://stackoverflow.com/questions/43476754/using-python-how-do-you-select-a-random-row-of-a-csv-file
+- Original Dataset from: https://www.kaggle.com/abhinavmoudgil95/short-jokes
