@@ -16,8 +16,10 @@ git clone https://github.com/cpa4001/hi-hungry-im-dad dirname
 #deactivate the virtual enviornment through:
 > venv\Scripts\deactivate
 #or
->deactivate
+> deactivate
 ```
+#Demo
+![Sample Image](hihungryimdad.PNG)
 
 #Acknowledgements
 -https://www.freecodecamp.org/news/how-to-build-a-web-application-using-flask-and-deploy-it-to-the-cloud-3551c985e492/
