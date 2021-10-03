@@ -24,3 +24,4 @@ git clone https://github.com/cpa4001/hi-hungry-im-dad dirname
 # Acknowledgements
 - https://www.freecodecamp.org/news/how-to-build-a-web-application-using-flask-and-deploy-it-to-the-cloud-3551c985e492/
 - https://codepen.io/comehope/pen/eKqZjy
+- https://stackoverflow.com/questions/43476754/using-python-how-do-you-select-a-random-row-of-a-csv-file
