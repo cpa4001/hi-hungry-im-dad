@@ -20,6 +20,7 @@ git clone https://github.com/cpa4001/hi-hungry-im-dad dirname
 ```
 # Demo
 Watch this short video on a futher explanation of the project! https://www.youtube.com/watch?v=ocKpEt1NGJo
+<br>
 ![Sample Image](hihungryimdad.PNG)
 
 # Acknowledgements
