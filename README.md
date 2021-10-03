@@ -19,6 +19,7 @@ git clone https://github.com/cpa4001/hi-hungry-im-dad dirname
 > deactivate
 ```
 # Demo
+![Watch the video](https://www.youtube.com/watch?v=ocKpEt1NGJo)
 ![Sample Image](hihungryimdad.PNG)
 
 # Acknowledgements
