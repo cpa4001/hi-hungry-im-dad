@@ -1,28 +1,33 @@
 from flask import Flask, render_template, request
+import random
+import csv
+
 
 app = Flask(__name__)
 
 
-#@app.route("/", methods=['GET', 'POST'])
 @app.route("/", methods=['GET', 'POST'])
 def home():
     if request.method == 'POST':
         if request.form['jk_request'] == 'GIVE ME A DAD JOKE!!':
+            dadjoke = ""
             # request dad joke from python script
             # get the string put it in render_template
-            dadjoke = "Hi Hungry"
+            filename = "generated_jokes.csv"
+
+            with open(filename) as f:
+                reader = csv.reader(f)
+                chosen_row = str(random.choice(list(reader))).replace('[', '').replace(']','')
+                return render_template('home.html', dadjoke=chosen_row)
+
             return render_template('home.html', dadjoke=dadjoke)
-    ##      elif  request.form.get('action2') == 'VALUE2':
-    ##         pass # do something else
-    ##      else:
-    ##         pass # unknown
-    ##   elif request.method == 'GET':
-    ##      return render_template('home.html', form=form)
     return render_template('home.html')
+
 
 @app.route('/christian')
 def christian():
     return 'This is Christian\'s  route'
+
 
 @app.route('/about')
 def about():
