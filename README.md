@@ -8,6 +8,7 @@ hi-hungry-im-dad is a simple web app aplication that uses the Flask python frame
 - Python
 - Keras
 
+# Quick Setup
 ``` sh
 #clone repo to desired directory
 git clone https://github.com/cpa4001/hi-hungry-im-dad dirname
