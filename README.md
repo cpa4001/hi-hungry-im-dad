@@ -28,6 +28,7 @@ git clone https://github.com/cpa4001/hi-hungry-im-dad dirname
 ```
 # Demo
 Watch this short video on a futher explanation of the project! https://www.youtube.com/watch?v=ocKpEt1NGJo <br>
+Try getting a dad joke yourself at https://plucky-ripsaw-327901.ue.r.appspot.com/ hosted on google cloud
 <br>
 ![Sample Image](hihungryimdad.PNG)
 
