@@ -7,6 +7,7 @@ hi-hungry-im-dad is a simple web app aplication that uses the Flask python frame
 - Flask
 - Python
 - Keras
+- Google Cloud
 
 # Quick Setup
 ``` sh
